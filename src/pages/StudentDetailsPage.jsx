@@ -9,7 +9,7 @@ function StudentDetailsPage() {
   // This could be a URL parameter from React Router, e.g. /students/:studentId
   const { studentId } = useParams();
   const studentProfile = studentsData.find(
-    (student) => student._id === studentIds
+    (student) => student._id === studentId
   );
 
   return (
